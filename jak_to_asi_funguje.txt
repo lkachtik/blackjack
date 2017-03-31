@@ -1,0 +1,13 @@
+POVOLENE PRIKAZY:
+- 'ano', 'a', 'yes', 'y', '' - pro pripad kladne odpovedi
+- 'ne', 'no', 'n' - pro pripad zaporne odpovedi
+- 'pomoc', 'help', 'about', 'o hre' - pro pripad nouze
+- cela kladna cisla v pripade dotazu na vklady
+
+O HRE:
+
+Hra samotna kopiruje zakladni principy a pravidla hry Blackjack.
+
+Nejprve dojde k vygenerovani balicku hracich karet, ktery je nasledne nahodne zamichan. Pote zacne hra samotna. Hrac je na uplnem zacatku vyzvan k vlozeni urcite sumy penez do sveho banku. Pote je vyzvan k vlozeni sazky ze sveho banku. Nasledne jsou rozdany karty z balicku v tomto poradi - prvni karta jde hracovi, dalsi jde do rukou pocitace a nakonec dostava hrac druhou kartu. Karty jsou vzdy rozdavany pouze od horni karty a vsechny rozdane karty jsou viditelne. Nasledne je hrac vyzyvan jestli chce dalsi kartu do te doby, dokud neprekroci 21 nebo dokud neodmitne dalsi kartu. V pripade, ze ma hrac v ruce Eso a prekrocil celkovou hodnotu karet 21, mu je automaticky Eso pocitano jako hodnota 1 a muze hrat dal. Po skonceni hracova tahu nasleduje hra pocitace. Ten vzhledem k pravidlum musi tahat dalsi karty do te doby, dokud nebude mit hodnotu 17 a vic. V pripade, ze dostane Eso a zaroven bude mit souct vsech karet vetsi nez 21, mu je Eso automaticky pocitano jako hodnota 1 a pocitac hraje dal. Nasledne jsou karty ze stolu nahodne zamichany a umisteny na spodni stranu balicku. Hrac je pote vyzvan, jestli chce hrat dalsi hru. V pripade, ze hraci dojdou vsechny penize z vlozeneho banku, je nejprve vyzvan, jestli chce vlozit nejakou castku a v pripadne kladne odpovedi hrac zvoli castku, ktera je mu pak dobita. V pripade, ze hrac nechce dobit castku nebo nechce hrat dal je hra ukoncena a vypsan pomer vyher a proher a hodnota hracova banku. V pripade, ze hrac bude pokracovat v hrani dal, je dotazan na veliksot sazky a jsou rozdany opet karty v poradi hrac - pocitac - hrac. Hra pak pokracuje stejnym zpusobem. Dokud ale nebude hra spustena znovu, nebudou uz karty v balicku michany a nove karty budou brany ze shora a karty ze stolu budou umistovany na spodni stranu balicku - presne podle pravidel BlackJacku. Po urcite dobe se tedy karty zacnou lehce opakovat a zde nastava prave metoda pocitani karet, takze se lze trenovat.
+
+V pripade, ze hraci jeste nebylo 18 let, hra probiha uplne stejne az na to, ze mu neni dovoleno hrat s penezi a nedochazi tedy k zadnym vyzvam k vlozeni jakekoliv sumy.
